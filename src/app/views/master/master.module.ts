@@ -6,7 +6,7 @@ import { PartyComponent } from './party/party.component';
 
 
 import { MasterComponent } from './master.component';
-import { AgGridModule } from 'ag-grid-angular';
+
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { RegisterComponent } from '../register/register.component';
@@ -29,8 +29,7 @@ import { SampleprodComponent } from './sampleprod/sampleprod.component';
   ],
   imports: [
     CommonModule,
-    MasterRoutingModule,
-    AgGridModule,
+    MasterRoutingModule,    
     ReactiveFormsModule,
     NgxPaginationModule,
     FormsModule,
